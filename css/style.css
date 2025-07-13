@@ -1,0 +1,194 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+nav h3{
+    font-weight: 70px;
+    font-size: 35px;
+    color:#4E47FF;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    width: 1140px;
+    height: 151px;
+
+    margin: 0 auto
+}
+
+nav ul{
+    display: flex;
+    /* align-items: center; */
+
+}
+nav ul li{
+  list-style: none;  
+
+}
+nav li a{
+text-decoration: none;
+font-size: 20px;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding:18px 25px ;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
+} 
+.btn-primary2{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding: 5px; ;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
+   margin: top 5px;
+   margin-bottom: 20px;
+   
+
+}
+.banner{
+  text-align: center;
+
+}
+
+.banner-title{
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.header{
+  background-image:  url(../assets/Hero-bg.png);
+  width:100%;
+    background-repeat: no-repeat;
+    background-position:auto;
+   background-position: center;
+    background-size: auto;
+    margin-bottom: 100px;
+    
+  
+   
+}
+
+.about-banner{
+  display: flex;
+justify-content: space-around;
+border-radius: 5px;
+
+
+}
+.style{
+  /* margin 0 auto; */
+  text-align: center;
+  color: dimgray;
+  text-justify: auto;
+  margin: top 10px;
+  width: 300px;
+  padding:18px 30px;
+  
+  border-radius: 5px;
+}
+
+  
+ .banner2{
+   font-size: 15px;
+
+ border-radius: 5px;
+ }
+ .banner-description{
+  font-size: medium;
+  color: rgb(168, 164, 164);
+  
+  
+ }
+ .users-title{
+  text-align: center;
+  /* background-size:cover; */
+  background-size: 0%;
+  font-weight: bold;
+  font-size: 100px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .users{ 
+  color: blue;
+ border-radius: 10px;
+padding: 20px;
+text-align: center;
+margin-top: 80px;
+margin-left: 10px;
+
+ }
+
+
+
+.section-title{
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+main{
+  max: width 1140px;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+main section{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.thausands{
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: top 65px;
+  text-align: center;
+ background-color: rgb(235, 235, 252);
+   margin-bottom: 20px;
+  
+   
+}
+.item-titles{ 
+  
+  color:#4E47FF;
+  font-weight: bold;
+  font-size: 60px;
+    
+
+}
+
+.about-items{
+display: flex;
+justify-content: space-around;
+}
+.item-descrtiption{
+font-weight: 600;
+}
+
+
+
+.skills-container{
+  display: flex;
+  gap: 30px;
+}
+ .skill{
+  padding: 30px; 
+  box-shadow: 0px 6px 40px 0px rgb(236, 228, 228) ;
+  border-radius: 5px;
+ }
